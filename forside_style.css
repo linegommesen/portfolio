@@ -1,0 +1,73 @@
+
+body{
+    background-image: url(forside_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width: 100%;
+}
+/*---------------desktop------------*/
+@media only screen and (min-width: 800px){
+/*------------------navbar--------------*/
+li a:hover{
+    color: #9F88F2;
+}
+}
+/*--------------------BILLEDER TIL FORSIDE---------------*/
+/*
+#section{
+      position: relative;
+    width: 100vw;
+    height: 56.25vw;
+}
+#img_sprite1{
+    position: absolute;
+    background-image: url(forside_billeder/forside_02.01.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 100vh;
+}
+#img_sprite2{
+    position: absolute;
+    background-image: url(forside_billeder/forside_02.02.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 100vh;
+}
+#img_sprite3{
+    position: absolute;
+    background-image: url(forside_billeder/forside_02.03.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 100vh;
+}
+#img_sprite4{
+    position: absolute;
+    background-image: url(forside_billeder/forside_02.04.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 100vh;
+}
+*/
+
+
+
+/*--------------------ANIMATIONER---------------*/
+
+.fald{
+    animation-name: fald_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+
+@keyframes fald_kf{
+    0% {
+        transform: translateY(-100vh);
+    }
+    100%{
+        transform: translateY(0vh);
+    }
+}
