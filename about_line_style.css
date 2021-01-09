@@ -1,4 +1,28 @@
+img{
+    max-width: 100%;
+}
+#menuknap{
+    color: #F25C05;
+}
 
+#section_splash{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(splash_om_line_mobile.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#section_about{
+    margin: 0;
+}
+h2{
+    color: #F25C05;
+
+}
+
+/*---------------desktop------------*/
+@media only screen and (min-width: 600px){
 #section_splash{
     width: 100vw;
     height: 100vh;
@@ -15,6 +39,10 @@
 #section_about img{
     margin-top: 3rem;
 }
-
+    /*------------------navbar--------------*/
+li a:hover{
+    color: #F25C05;
+}
+}
 
 

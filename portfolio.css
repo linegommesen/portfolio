@@ -9,11 +9,14 @@ video{
     max-width: 100%;
 }
 h1{
-    color: #F25C05;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #F27506;
 }
 h3{
-color: #F27506;
-/*    color: black;*/
+/*color: #F27506;*/
+color: black;
 }
 h4{
      color: #F27506;
