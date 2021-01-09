@@ -7,6 +7,9 @@ body{
 img{
     width: 100%;
 }
+#menuknap{
+    color: #9F88F2;
+}
 /*---------------desktop------------*/
 @media only screen and (min-width: 600px){
     body{
