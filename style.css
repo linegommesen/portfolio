@@ -17,8 +17,47 @@ img {
     max-width: 100%;
 }
 
+/*------------burgermenu-----------*/
+.hidden{
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+#menuknap{
+    display: inline-block;
+    margin-top: auto;
+    margin-left: 0.7rem;
+    font-size: 3rem;
+    color:#9F88F2
+}
+
+#menu{
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+}
+
+/*-------------typografi---------------*/
+
+p{
+   font-family: 'Open Sans', sans-serif;
+}
+}
+
+
 /*-----------------desktop----------------*/
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
+/*-------fjerne burgermenu og lave navbar--------*/
+    #menuknap{
+        display: none;
+    }
+    #menu.hidden{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    #menu li{
+        display: inline-block;
+    }
 /*-------------navbar--------------*/
 ul {
   list-style-type: none;
@@ -60,9 +99,4 @@ li a:hover{
 }
 */
 
-/*-------------typografi---------------*/
 
-p{
-   font-family: 'Open Sans', sans-serif;
-}
-}

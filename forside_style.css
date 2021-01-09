@@ -1,14 +1,19 @@
-
 body{
-    background-image: url(forside_02.jpg);
+    background-image: url(forside_02_mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 img{
     width: 100%;
 }
 /*---------------desktop------------*/
 @media only screen and (min-width: 800px){
+    body{
+    background-image: url(forside_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /*------------------navbar--------------*/
 li a:hover{
     color: #9F88F2;
