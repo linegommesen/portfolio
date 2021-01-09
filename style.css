@@ -36,6 +36,7 @@ img {
     list-style-type: none;
     transition: transform 0.3s;
     transform-origin: top left;
+    margin-left: 1rem;
 }
 
 /*------------logo------------*/
@@ -50,7 +51,13 @@ img {
 p{
    font-family: 'Open Sans', sans-serif;
 }
+a{
+    font-family:'Open Sans', sans-serif;
+    text-decoration: none;
+    border-bottom: 0;
+    color: black;
 }
+
 
 @media only screen and (min-width: 600px){
 
