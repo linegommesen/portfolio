@@ -8,7 +8,7 @@ img{
     width: 100%;
 }
 /*---------------desktop------------*/
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 600px){
     body{
     background-image: url(forside_02.jpg);
     background-size: cover;
