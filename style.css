@@ -8,11 +8,14 @@ lilla: #9F88F2
 */
 
 *{
-    position: relative;
+
     max-width: 100vw;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    position: relative;
 }
 img {
     max-width: 100%;
