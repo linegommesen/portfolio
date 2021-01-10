@@ -1,0 +1,78 @@
+header{
+    height: 4rem;
+}
+#video img{
+    width: 100vw;
+    height: auto;
+    margin: 1rem;
+}
+#info{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+#info li{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 0.5rem;
+    list-style: disc;
+    line-height: 1.7rem;
+/*    list-style-position: outside;*/
+}
+h2{
+    margin-left: 1.5rem;
+    font-size: 1.7rem;
+    color: #9F88F2;
+}
+h4{
+    text-decoration-line: none;
+    color: #9F88F2;
+}
+#info a{
+font-family:'Roboto', sans-serif;
+color: #9F88F2;
+letter-spacing: 0.03rem;
+text-decoration-line: none;
+text-align: center;
+
+width: 16rem;
+border: 2px solid #9F88F2;
+border-radius: 7px;
+padding: 7px;
+margin: 0.7rem;
+
+}
+
+@media only screen and (min-width: 600px) {
+    #info{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+    #video img{
+        margin: 3rem;
+    }
+    h2{
+    font-size: 4rem;
+}
+
+}
+
+/*
+h2{
+    writing-mode: vertical-rl;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-size: 10rem;
+}
+*/
+/*
+#video{
+    margin-top: 3rem;
+    width: 100vw;
+    height: 100vh;
+   display: grid;
+    grid-template-columns: 0.5fr 4fr;
+}
+*/

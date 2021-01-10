@@ -1,0 +1,32 @@
+h2{
+    writing-mode: vertical-rl;
+/*    text-orientation: mixed;*/
+    color: aliceblue;
+
+}
+#section_wrapper_video{
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    background-size: cover;
+/*
+    width: 100vw;
+    height: 100vh;
+*/
+}
+#overskrift{
+    position: absolute;
+  background-size: cover;
+    background-position: 10% 10% ;
+    width: 100vw;
+    height: 100vh;
+}
+/*
+#info{
+   position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: auto;
+}*/

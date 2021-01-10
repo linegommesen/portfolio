@@ -183,7 +183,7 @@ nav{
     text-decoration: none;
     border-bottom: 0;
 }
-li a{
+nav li a{
     text-decoration: none;
     color: #000000;
 }
@@ -217,6 +217,10 @@ font-size: 0.8rem;
 .insta {
     max-width: 3vw;
 }
+
+    section{
+        margin-top: 0rem;
+    }
 
 }
 /*-----------------desktop----------------*/
@@ -261,7 +265,7 @@ nav{
     text-decoration: none;
     border-bottom: 0;
 }
-li a{
+nav li a{
     text-decoration: none;
     color: #000000;
 }
