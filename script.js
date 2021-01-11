@@ -5,15 +5,15 @@ console.log("sidenVises");
 
  document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
-//knapper på portfolio.html//
-document.querySelector(".knap").addEventListener("mouseover", mouseoverKnap);
-document.querySelector(".knap2").addEventListener("mouseover", mouseoverKnap);
-document.querySelector(".knap3").addEventListener("mouseover", mouseoverKnap);
-document.querySelector(".knap4").addEventListener("mouseover", mouseoverKnap);
-document.querySelector(".knap5").addEventListener("mouseover", mouseoverKnap);
-document.querySelector(".knap6").addEventListener("mouseover", mouseoverKnap);
+////knapper på portfolio.html//
+//document.querySelector("#knap").addEventListener("mouseover", mouseoverKnap);
+//document.querySelector("#knap2").addEventListener("mouseover", mouseoverKnap);
+//document.querySelector("#knap3").addEventListener("mouseover", mouseoverKnap);
+//document.querySelector("#knap4").addEventListener("mouseover", mouseoverKnap);
+//document.querySelector("#knap5").addEventListener("mouseover", mouseoverKnap);
+//document.querySelector("#knap6").addEventListener("mouseover", mouseoverKnap);
 
-document.querySelector("#overskrift").classList.add("skrump");
+
 }
 function toggleMenu() {
     console.log("toggleMenu");
