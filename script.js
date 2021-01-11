@@ -12,6 +12,8 @@ document.querySelector(".knap3").addEventListener("mouseover", mouseoverKnap);
 document.querySelector(".knap4").addEventListener("mouseover", mouseoverKnap);
 document.querySelector(".knap5").addEventListener("mouseover", mouseoverKnap);
 document.querySelector(".knap6").addEventListener("mouseover", mouseoverKnap);
+
+document.querySelector("#overskrift").classList.add("skrump");
 }
 function toggleMenu() {
     console.log("toggleMenu");

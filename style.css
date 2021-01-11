@@ -147,21 +147,20 @@ h4{
 }
 /*-------------animationer--------------------*/
 
-.glow{
-    animation-name: glow_kf;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+.skrump{
+    animation-name: skrump_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
 }
-@keyframes glow_kf{
+@keyframes skrump_kf{
     0%{
-        filter: drop-shadow(0px 0px 0px);
-        color: #F27506;
+        transform: scale(1);
     }
     100%{
-        filter: drop-shadow(0px 0px 5px);
-        color: #F27506;
+        transform: scale(0.6);
     }
+}
 }
 .grow{
     animation-name: grow_kf;

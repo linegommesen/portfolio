@@ -41,6 +41,9 @@ margin: 0.7rem;
 #menuknap{
     color: #F27506;
 }
+header{
+    height: 0rem;
+}
 /*---------DESKTOP-----------*/
 @media only screen and (min-width: 600px) {
 .section_grid {
@@ -56,45 +59,15 @@ h1{
 li a:hover{
     color: #F27506;
 }
-}
-/*---------------animation på overksrift--------------*/
-
-/*
-#h1_container{
-    width: 100vw;
-    height: 100vh;
-}
-#h1_sprite{
-    position: absolute;
-    width: 100vw;
-    background-image: url(h1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-*/
-#section_portfolio{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(h1.2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.skalering{
-    animation-name: skalering_kf;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-    animation-timing-function: linear;
-}
-
-@keyframes skalering_kf{
-    0%{
-        transform: scale(1);
-
+    #overskrift{
+        width: 100vw;
+/*        height: 100vh;*/
     }
-    100%{
-        transform: scale(0.2);
-        transform: translateX(-10);
+    nav{
+        position: absolute;
+        top: -32px;
     }
 }
+
+
+
