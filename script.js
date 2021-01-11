@@ -23,8 +23,10 @@ function toggleMenu() {
     let erSkjult = document.querySelector("#menu").classList.contains("hidden");
     if(erSkjult == true){
         document.querySelector("#menuknap").textContent = "☰";
+        //document.querySelector("#menu").classList.remove("menu_baggrund");
     } else{
         document.querySelector("#menuknap").textContent ="✕";
+    //document.querySelector("#menu").classList.add("menu_baggrund");
     }
 }
 

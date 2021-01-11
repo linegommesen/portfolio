@@ -19,12 +19,14 @@ body{
 }
 img {
     max-width: 100%;
+    margin-left: 0rem;
 }
 video{
     max-width: 100%;
 }
 section{
     margin-top: 5rem;
+/*    margin-left: 1rem;*/
 }
 /*
 footer{
@@ -89,7 +91,6 @@ font-size: 0.4rem;
     margin-top: auto;
     margin-left: 0.7rem;
     font-size: 3rem;
-
 }
 
 #menu{
@@ -97,6 +98,11 @@ font-size: 0.4rem;
     transition: transform 0.3s;
     transform-origin: top left;
     margin-left: 1rem;
+}
+.menu_baggrund{
+    background-color: #F27506;
+    width: 80vw;
+    height: auto;
 }
 
 /*------------logo------------*/
