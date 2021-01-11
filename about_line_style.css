@@ -1,20 +1,24 @@
 img{
     max-width: 100%;
 }
+video{
+    max-width: 100%;
+    margin-top: 1rem;
+}
 #menuknap{
     color: #F25C05;
 }
 
 #section_splash{
     width: 100vw;
-    height: 100vh;
+    height: 83vh;
     background-image: url(splash_om_line_mobile.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0;
 }
 #section_about{
-    margin: 0;
+    margin: 1rem;
 }
 h2{
     color: #F25C05;
@@ -46,6 +50,9 @@ header{
 li a:hover{
     color: #F25C05;
 }
+    video{
+        margin-top: 5rem;
+    }
 }
 
 
