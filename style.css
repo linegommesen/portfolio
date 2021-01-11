@@ -14,7 +14,7 @@ lilla: #9F88F2
     box-sizing: border-box;
 }
 body{
-
+overflow-x: hidden;
     position: relative;
 }
 img {
@@ -215,6 +215,7 @@ nav a {
   display: block;
   padding: 0.5rem;
   background-color: transparent;
+    margin-right: 2rem;
 }
 nav img{
     max-width: 10vw;
