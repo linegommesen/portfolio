@@ -6,6 +6,7 @@ console.log("sidenVises");
  document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
 document.querySelector(".knap").addEventListener("mouseover", mouseoverKnap);
+document.querySelector(".knap2").addEventListener("mouseover", mouseoverKnap2);
 }
 function toggleMenu() {
     console.log("toggleMenu");
@@ -26,9 +27,25 @@ function mouseoverKnap(){
     document.querySelector(".knap").classList.add("grow");
     document.querySelector(".knap").addEventListener("mouseout", mouseoutKnap);
 }
+function mouseoverKnap2() {
+    console.log("mouseoverKnap2");
+  document.querySelector(".knap2").removeEventListener("mouseover", mouseoverKnap2);
+    document.querySelector(".knap2").classList.add("grow");
+    document.querySelector(".knap2").addEventListener("mouseout", mouseoutKnap2);
+}
+
 function mouseoutKnap(){
     console.log("mouseoutKnap");
-      document.querySelector(".knap").removeEventListener("mouseout", mouseoutKnap);
+    document.querySelector(".knap").removeEventListener("mouseout", mouseoutKnap);
     document.querySelector(".knap").classList.remove("grow");
      document.querySelector(".knap").addEventListener("mouseover", mouseoverKnap);
+
+
 }
+function mouseoutKnap2(){
+    console.log("mouseoverKnap2");
+    document.querySelector(".knap2").removeEventListener("mouseout", mouseoutKnap2);
+    document.querySelector(".knap2").classList.remove("grow");
+     document.querySelector(".knap2").addEventListener("mouseover", mouseoverKnap2);
+}
+
