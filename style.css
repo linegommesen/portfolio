@@ -168,7 +168,7 @@ h4{
         transform: scale(0.6);
     }
 }
-}
+
 .grow{
     animation-name: grow_kf;
     animation-duration: 1s;
