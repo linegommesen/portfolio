@@ -5,8 +5,13 @@ console.log("sidenVises");
 
  document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
+//knapper på portfolio.html//
 document.querySelector(".knap").addEventListener("mouseover", mouseoverKnap);
-document.querySelector(".knap2").addEventListener("mouseover", mouseoverKnap2);
+document.querySelector(".knap2").addEventListener("mouseover", mouseoverKnap);
+document.querySelector(".knap3").addEventListener("mouseover", mouseoverKnap);
+document.querySelector(".knap4").addEventListener("mouseover", mouseoverKnap);
+document.querySelector(".knap5").addEventListener("mouseover", mouseoverKnap);
+document.querySelector(".knap6").addEventListener("mouseover", mouseoverKnap);
 }
 function toggleMenu() {
     console.log("toggleMenu");
@@ -23,29 +28,21 @@ function toggleMenu() {
 
 function mouseoverKnap(){
     console.log("mouseoverKnap");
-    document.querySelector(".knap").removeEventListener("mouseover", mouseoverKnap);
-    document.querySelector(".knap").classList.add("grow");
-    document.querySelector(".knap").addEventListener("mouseout", mouseoutKnap);
-}
-function mouseoverKnap2() {
-    console.log("mouseoverKnap2");
-  document.querySelector(".knap2").removeEventListener("mouseover", mouseoverKnap2);
-    document.querySelector(".knap2").classList.add("grow");
-    document.querySelector(".knap2").addEventListener("mouseout", mouseoutKnap2);
+    console.log(this);
+    this.removeEventListener("mouseover", mouseoverKnap);
+
+    this.classList.add("grow");
+
+   this.addEventListener("mouseout",mouseoutKnap);
+
 }
 
 function mouseoutKnap(){
     console.log("mouseoutKnap");
-    document.querySelector(".knap").removeEventListener("mouseout", mouseoutKnap);
-    document.querySelector(".knap").classList.remove("grow");
-     document.querySelector(".knap").addEventListener("mouseover", mouseoverKnap);
+    this.removeEventListener("mouseout",mouseoutKnap);
 
+    this.classList.remove("grow");
 
-}
-function mouseoutKnap2(){
-    console.log("mouseoverKnap2");
-    document.querySelector(".knap2").removeEventListener("mouseout", mouseoutKnap2);
-    document.querySelector(".knap2").classList.remove("grow");
-     document.querySelector(".knap2").addEventListener("mouseover", mouseoverKnap2);
+    this.addEventListener("mouseover", mouseoverKnap);
 }
 
