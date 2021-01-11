@@ -25,12 +25,14 @@ h4{
 section a{
 font-family:'Roboto', sans-serif;
 color: #F27506;
+/*    color: white;*/
 letter-spacing: 0.03rem;
 text-decoration-line: none;
 text-align: center;
 
 width: 16rem;
 border: 2px solid #F27506;
+/*    background-color: #F27506;*/
 border-radius: 7px;
 padding: 7px;
 margin: 0.7rem;
