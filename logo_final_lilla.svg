@@ -1,33 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Lag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 335.5 172.7" style="enable-background:new 0 0 335.5 172.7;" xml:space="preserve">
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#9F88F2;}
 	.st1{fill:#FFFFFF;}
 </style>
 <g>
 	<g>
-		<path class="st0" d="M0,174.9V-1.4h53v151.8h52.1v24.5L0,174.9L0,174.9z"/>
+		<path class="st0" d="M151.5,137.7V-38.6h53v151.8h52.1v24.5L151.5,137.7L151.5,137.7z"/>
 	</g>
 	<g>
-		<rect x="51" y="125.3" class="st0" width="54.2" height="28.4"/>
+		<rect x="202.5" y="88.1" class="st0" width="54.2" height="28.4"/>
 	</g>
 </g>
 <g>
-	<path class="st0" d="M57.9,118.8V-1.9h46.5v120.6H57.9V118.8z"/>
+	<path class="st0" d="M209.4,81.6V-39.1h46.5V81.5h-46.5V81.6z"/>
 </g>
 <g>
-	<path class="st0" d="M109.8,174.9V-1.5h32.1l48.3,92.3V-1.5h37v176.4h-30.8l-48.2-97.8v97.8H109.8z"/>
+	<path class="st0" d="M261.3,137.7V-38.7h32.1l48.3,92.3v-92.3h37v176.4h-30.8l-48.2-97.8v97.8H261.3z"/>
 </g>
-<rect x="142.5" y="72.8" class="st0" width="10.2" height="101.6"/>
-<rect x="183.1" y="-3.4" class="st0" width="10.2" height="118.5"/>
-<rect x="10.4" y="-105.2" class="st1" width="365.8" height="27.1"/>
-<rect x="-16.7" y="284.2" class="st1" width="365.8" height="27.1"/>
+<rect x="294" y="35.6" class="st0" width="10.2" height="101.6"/>
+<rect x="334.6" y="-40.6" class="st0" width="10.2" height="118.5"/>
+<rect x="161.9" y="-142.4" class="st1" width="365.8" height="27.1"/>
+<rect x="134.8" y="247" class="st1" width="365.8" height="27.1"/>
 <g>
-	<rect x="234.1" y="-1.9" class="st0" width="101.4" height="38.7"/>
-	<rect x="233.9" y="135.8" class="st0" width="101.4" height="38.7"/>
-	<rect x="233.9" y="70.6" class="st0" width="94.7" height="30.5"/>
-	<rect x="234.1" y="-1.9" class="st0" width="52.6" height="176.4"/>
+	<rect x="385.6" y="-39.1" class="st0" width="101.4" height="38.7"/>
+	<rect x="385.4" y="98.6" class="st0" width="101.4" height="38.7"/>
+	<rect x="385.4" y="33.4" class="st0" width="94.7" height="30.5"/>
+	<rect x="385.6" y="-39.1" class="st0" width="52.6" height="176.4"/>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M1,11V4.5H3v5.6h1.9V11H1z"/>
+	</g>
+	<g>
+		<rect x="2.9" y="9.3" class="st0" width="2" height="0.8"/>
+	</g>
+	<g>
+		<path class="st0" d="M3.8,8.9V4.5h1.1v4.4H3.8z"/>
+	</g>
+	<g>
+		<path class="st0" d="M5.9,11V4.5h1.2l1.8,3.4V4.5h1.4V11H9.1L7.3,7.4V11H5.9z"/>
+	</g>
+	<g>
+		<rect x="11.3" y="4.5" class="st0" width="3.7" height="1.4"/>
+		<rect x="11.3" y="7.1" class="st0" width="3.5" height="1.1"/>
+		<rect x="11.3" y="9.5" class="st0" width="3.7" height="1.4"/>
+		<rect x="11.3" y="4.5" class="st0" width="2" height="6.5"/>
+	</g>
 </g>
 </svg>
