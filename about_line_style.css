@@ -11,7 +11,7 @@ video{
 
 #section_splash{
     width: 100vw;
-    height: 83vh;
+    height: 100vh;
     background-image: url(splash_om_line_mobile.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -27,6 +27,13 @@ h2{
 header{
     height: 0rem;
 }
+nav a{
+    font-family:'Open Sans', sans-serif;
+    text-decoration: none;
+    border-bottom: 0;
+/*    color: black;*/
+    color: #F25C05;
+}
 /*--------------ipad------------*/
 @media only screen and (min-width: 600px){
     #section_splash{
@@ -35,6 +42,13 @@ header{
     background-image: url(splash_om_line_ipad.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+    nav a{
+    font-family:'Open Sans', sans-serif;
+    text-decoration: none;
+    border-bottom: 0;
+    color: black;
+/*    color: #F25C05;*/
 }
 }
 /*---------------desktop------------*/
