@@ -323,7 +323,10 @@ nav li a{
 }
      #logo{
         position: absolute;
-        left: 1vw;
+        left: 0vw;
+         top: 2vh;
+         width: 20vw;
+/*         margin-left: 0rem;*/
     }
 }
 /*
