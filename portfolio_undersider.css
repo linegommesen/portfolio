@@ -63,7 +63,8 @@ margin: 0.7rem;
         transform: scale(1.1);
     }
 }
-@media only screen and (min-width: 600px) {
+/*------------desktop------------*/
+@media only screen and (min-width: 800px) {
     #info{
     margin-left: 4rem;
     margin-right: 4rem;

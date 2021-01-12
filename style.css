@@ -15,7 +15,7 @@ lilla: #9F88F2
 }
 body{
 overflow-x: hidden;
-    position: relative;
+position: relative;
 }
 img {
     max-width: 100%;
@@ -183,7 +183,7 @@ h4{
         transform: scale(1);
     }
 }
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
 
 /*-----fjerne burgermenu og lave navbar--------*/
      #menuknap{
@@ -266,9 +266,17 @@ font-size: 0.8rem;
     }
 
 }
+/*------------------ipad----------------*/
+/*---------------menu og logo-------------*/
+#logo {
+    width: 13vw;
+    position: absolute;
+    left: 44vw;
+    top: 2vh;
+}
 /*-----------------desktop----------------*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
 /*-------fjerne burgermenu og lave navbar--------*/
 
     #menuknap{

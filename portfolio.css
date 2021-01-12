@@ -69,8 +69,23 @@ header{
         transform: scale(1.1);
     }
 }
+/*----------ipad------------*/
+@media only screen and (min-width: 600px){
+    h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10rem;
+    text-align: center;
+    color: #F27506;
+    margin-bottom: -5rem;
+}
+section{
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+}
 /*---------DESKTOP-----------*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
 .section_grid {
     display: grid;
     grid-template-columns: 5fr 4fr;

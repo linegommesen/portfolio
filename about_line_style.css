@@ -27,9 +27,18 @@ h2{
 header{
     height: 0rem;
 }
-
-/*---------------desktop------------*/
+/*--------------ipad------------*/
 @media only screen and (min-width: 600px){
+    #section_splash{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(splash_om_line_ipad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}
+/*---------------desktop------------*/
+@media only screen and (min-width: 800px){
 #section_splash{
     width: 100vw;
     height: 100vh;
